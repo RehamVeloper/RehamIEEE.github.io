@@ -1,0 +1,40 @@
+.events {
+    background-image: url(/Img/Background.jpg);
+    margin: 0;
+    .events-container {
+        margin: 0rem 7.5%;
+
+        h1 {
+            min-height: 10vh;
+            font-size: 3rem;
+            text-align: center;
+            color: rgb(83, 81, 81);
+            padding-top: 1rem;
+        }
+        .box-container {
+            display: grid;
+            min-height: 90vh;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 2.2rem;
+        }
+        .boxes {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            font-size: 2rem;
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+            h2 {
+                color: var(--blue);
+                font-weight: bolder;
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1.6rem;
+                margin: 0;
+            }
+        }
+    }
+}

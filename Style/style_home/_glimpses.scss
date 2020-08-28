@@ -1,0 +1,25 @@
+.glimpses {
+    margin: 0rem 7.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: gray;
+    }
+    p {
+        font-size: 1.7rem;
+    }
+    .bold {
+        font-weight: bolder;
+    }
+}

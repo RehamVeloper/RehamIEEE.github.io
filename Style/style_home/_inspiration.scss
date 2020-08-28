@@ -1,0 +1,39 @@
+.inspiration {
+    background-image: url(/Img/Background.jpg);
+}
+.inspiration-container {
+    margin: 0rem 7.5%;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        color: grey;
+        min-height: 5vh;
+    }
+    p {
+        font-size: 1.5rem;
+        color: grey;
+        min-height: 5vh;
+    }
+    .pic-container {
+        display: grid;
+        min-height: 70vh;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 1fr 1fr;
+        .pics {
+            img {
+                height: 50%;
+                border-radius: 50%;
+                width: 50%;
+                object-fit: contain;
+                overflow: hidden;
+            }
+            h3 {
+                font-size: 1.5rem;
+            }
+            h4 {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+footer {
+    background-color: var(--blue);
+    min-height: 60vh;
+    color: white;
+    .footer-container {
+        margin: 0rem 7.5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        img {
+            margin: 1rem;
+        }
+        .boxs {
+            display: flex;
+            flex-direction: column;
+            h4 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.3rem;
+            }
+            a {
+                color: white;
+            }
+            .btn.container {
+                display: flex;
+                flex-direction: row;
+                i {
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+    div {
+        margin: 0rem 7.5%;
+        color: white;
+        a {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+    }
+    iframe {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        margin-top: 3rem;
+    }
+}

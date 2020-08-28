@@ -1,0 +1,23 @@
+.building {
+    background: url(/Img/Background.jpg);
+    object-fit: cover;
+    width: 100%;
+    min-height: 90vh;
+    .building-container {
+        margin: 0 7.5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        grid-template-rows: 90vh;
+        align-items: center;
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: grey;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+header {
+    background-color: #fff;
+    min-height: 10vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    .nav-container {
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        nav ul {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-self: flex-end;
+            justify-content: space-evenly;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            li {
+                flex: 1;
+                text-align: center;
+            }
+            a {
+                color: grey;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+#gradient-nav {
+    position: relative;
+    &::after {
+        content: "";
+        background-image: linear-gradient(135deg, rgba(40, 51, 115, 1) 22%, rgba(128, 4, 118, 1) 67%);
+        height: 6.5rem;
+        width: 8rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(35%, -35%);
+        z-index: 1;
+    }
+    a {
+        position: relative;
+        z-index: 2;
+        color: white;
+    }
+}

@@ -1,0 +1,40 @@
+.core {
+    background-image: url(/Img/Background.jpg);
+}
+.core-header {
+    h1 {
+        color: grey;
+        font-size: 3rem;
+        min-height: 10vh;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        min-height: 10vh;
+        color: rgb(163, 160, 160);
+        font-size: 1.5rem;
+    }
+}
+
+.core-body {
+    margin: 0 7.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+    grid-gap: 2rem;
+    .cores {
+        display: flex;
+        flex-direction: column;
+        i {
+            color: rgb(38, 38, 104);
+        }
+
+        h1 {
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: 1.3rem;
+            color: rgb(163, 160, 160);
+        }
+    }
+}

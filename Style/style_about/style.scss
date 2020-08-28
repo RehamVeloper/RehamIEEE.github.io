@@ -1,0 +1,35 @@
+:root {
+    --blue: #0072a6;
+    --pink: #800476;
+    --grey: rgb(233, 233, 233);
+    --white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+
+    /*To make 1rem=10px - Nothing Special I like to work with rems*/
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--grey);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import "nav";
+@import "showcase";
+@import "video";
+@import "building";
+@import "contact";
+@import "media";

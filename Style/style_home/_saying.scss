@@ -1,0 +1,31 @@
+.saying {
+    background-color: var(--blue);
+    min-height: 60vh;
+    .saying-container {
+        margin: 1rem 7.5%;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            border-radius: 50%;
+            overflow: hidden;
+            object-fit: contain;
+            margin: 2rem;
+        }
+        h1 {
+            min-height: 10vh;
+            font-size: 3rem;
+        }
+        div {
+            q,
+            p {
+                color: white;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+    }
+}

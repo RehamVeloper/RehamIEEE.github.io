@@ -1,0 +1,34 @@
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 25vh;
+    margin: 0rem 7.5%;
+    align-items: center;
+    text-align: start;
+    font-size: 2rem;
+    color: rgb(128, 128, 128);
+    a {
+        text-align: center;
+        display: inline-block;
+        justify-self: center;
+        align-self: center;
+        min-height: 4rem;
+        width: 80%;
+        color: white;
+        background-color: var(--pink);
+        font-size: 2.5rem;
+        padding: 1rem 0rem;
+        border-radius: 1rem;
+        &:hover {
+            background-color: var(--blue);
+            transition-delay: 300ms;
+            transition-timing-function: ease-in;
+        }
+    }
+}
+hr {
+    width: 70%;
+    font-weight: bolder;
+    height: 0.2rem;
+    background-color: black;
+}
